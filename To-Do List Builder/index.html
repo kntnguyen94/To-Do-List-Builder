@@ -24,17 +24,17 @@
                             <h1 id = "toDoTitle">To-Do List</h1>
                             <br>
                             <table id="toDoTable">
-                            <tr>
+                            <tr class = "headRow">
                                 <th class = "descCol">Task</th>
                                 <th class = "descCol">Details</th>
                                 <th class = "descCol">Deadline</th>
                                 <th class = "buttonCol"></th>
                             </tr>
-                            <tr ng-repeat = "x in toDoList">
-                                <td>{{x.taskName}}</td>
-                                <td>{{x.details}}</td>
-                                <td>{{x.deadline | date:"MM/dd/yyyy ' at ' h:mma"}}</td>
-                                <td><input type="button" data-ng-click="removeRow(x)" value = "Delete"/></td>
+                            <tr class = "descRow" ng-repeat = "x in toDoList">
+                                <td class = "descCol">{{x.taskName}}</td>
+                                <td class = "descCol">{{x.details}}</td>
+                                <td class = "descCol">{{x.deadline | date:"MM/dd/yyyy ' at ' h:mma"}}</td>
+                                <td class = "buttonCol"><input type="button" data-ng-click="removeRow(x)" value = "Delete"/></td>
                             </tr>
                             </table>
                             <br><br>
