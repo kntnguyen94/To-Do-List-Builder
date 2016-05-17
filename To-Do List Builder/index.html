@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app = "app" ng-cloak>
+<header>
+    <meta charset = "utf-8">
+    <title>To-Do List Builder</title>
+    <style>
+        [ng\:cloak], [ng-cloak], .ng-cloak {
+      display: none;
+    }   
+    </style>
+    <link rel = "stylesheet" type = "text/css" href = "main.css"> 
+</header>
+
+    
+<body>
+    <div id = "toDoDiv" ng-controller = "toDoCtrl">
+        <p>Current To-Do List Here</p>
+        <br><br>
+        
+        <table id="toDoTable">
+        <tr>
+            <th>Task</th>
+            <th>Details</th>
+            <th></th>
+        </tr>
+        <tr ng-repeat = "x in toDoList">
+            <td>{{x.taskName}}</td>
+            <td>{{x.deadline}}</td>
+            <td><input type="button" data-ng-click="removeRow(x)" value = "Delete"/></td>
+        </tr>
+        </table>
+        
+        <form name = "newTaskForm" onsubmit="this.reset()" ng-submit="addTask(taskInfo)">
+            <p>Add new task here</p>
+            <label>Task Name: </label>
+                <input type="text" name="taskName" ng-model="taskInfo.taskName" ng-required = "true" />
+                <span class = "error-message" ng-show="newTaskForm.taskName.$dirty && newTaskForm.taskName.$error.required">Must enter task name</span>
+            <br><br>
+            <label>Details:</label>
+                <input type="textarea" name="deadlineInput" ng-model="taskInfo.deadline"/>
+            <br><br>
+            <input type = "submit" value = "Add" ng-disabled="newTaskForm.$invalid" />
+        </form>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="js/toDo.js"></script>
+</body>
+</html>
