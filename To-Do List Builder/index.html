@@ -33,7 +33,7 @@
         </table>
         <br><br>
         <form id = "newTaskForm" name = "newTaskForm" onsubmit="this.reset()" ng-submit="addTask(taskInfo)">
-            <p>Add new task here</p>
+            <p id = "newTaskMsg"><strong>Add new task here</strong></p>
             <label class = "formLabel">Task Name: </label>
                 <input type="text" name="taskName" ng-model="taskInfo.taskName" ng-required = "true" />
                 <span class = "error-message" ng-show="newTaskForm.taskName.$dirty && newTaskForm.taskName.$error.required">Must enter task name</span>
