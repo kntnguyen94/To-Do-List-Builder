@@ -2,14 +2,23 @@ body
     #toDoDiv
         #toDoTable
             border: 1px solid black
+            td
+                border: 1px solid black
             th
                 padding-top: 12px
                 padding-bottom: 12px
                 background-color: #4CAF50
                 color: white
+                border: 1px solid black
             tr
                 &:nth-child(even)
                     background-color: #f2f2f2
                 &:hover
                     background-color: #ddd
-                
+        #newTaskForm
+            .formLabel
+                display: inline-block
+                width: 100px
+                text-align: right
+            .formButton
+                margin-left: 103px
