@@ -21,11 +21,13 @@
         <tr>
             <th>Task</th>
             <th>Details</th>
+            <th>Deadline</th>
             <th></th>
         </tr>
         <tr ng-repeat = "x in toDoList">
             <td>{{x.taskName}}</td>
-            <td>{{x.deadline}}</td>
+            <td>{{x.details}}</td>
+            <td>{{x.deadline | date:"MM/dd/yyyy ' at ' h:mma"}}</td>
             <td><input type="button" data-ng-click="removeRow(x)" value = "Delete"/></td>
         </tr>
         </table>
@@ -37,7 +39,9 @@
                 <span class = "error-message" ng-show="newTaskForm.taskName.$dirty && newTaskForm.taskName.$error.required">Must enter task name</span>
             <br><br>
             <label>Details:</label>
-                <input type="textarea" name="deadlineInput" ng-model="taskInfo.deadline"/>
+                <input type="textarea" name="detailsInput" ng-model="taskInfo.details"/><br><br>
+            <label>Deadline:</label>
+                <input type="datetime-local" name="deadlineInput" ng-model="taskInfo.deadline"/>
             <br><br>
             <input type = "submit" value = "Add" ng-disabled="newTaskForm.$invalid" />
         </form>
