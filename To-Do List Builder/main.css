@@ -400,39 +400,51 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/* line 3, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
-body #toDoDiv #toDoTable {
-  border: 1px solid black;
-  margin-left: 5px; }
-  /* line 6, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
-  body #toDoDiv #toDoTable td {
-    border: 1px solid black; }
+/* line 4, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+body .container #toDoDiv #toDoDivList {
+  border-style: solid; }
   /* line 8, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
-  body #toDoDiv #toDoTable th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: #4CAF50;
-    color: white;
+  body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTitle {
+    text-align: center; }
+  /* line 10, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+  body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable {
+    table-layout: fixed;
+    margin: 0 auto;
     border: 1px solid black; }
-  /* line 15, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
-  body #toDoDiv #toDoTable tr:nth-child(even) {
-    background-color: #f2f2f2; }
-  /* line 17, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
-  body #toDoDiv #toDoTable tr:hover {
-    background-color: #ddd; }
-
-/* line 20, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
-body #toDoDiv #newTaskForm #newTaskMsg {
-  margin-left: 103px; }
-
-/* line 22, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
-body #toDoDiv #newTaskForm .formLabel {
-  display: inline-block;
-  width: 100px;
-  text-align: right; }
-
-/* line 26, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
-body #toDoDiv #newTaskForm .formButton {
-  margin-left: 103px; }
+    /* line 15, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable tr:nth-child(even) {
+      background-color: #f2f2f2; }
+    /* line 17, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable tr:hover {
+      background-color: #ddd; }
+    /* line 19, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable tr td {
+      word-wrap: break-work;
+      border: 1px solid black; }
+    /* line 22, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable tr .descCol {
+      min-width: 150px; }
+    /* line 24, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable tr th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      background-color: #4CAF50;
+      color: white;
+      border: 1px solid black; }
+  /* line 30, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+  body .container #toDoDiv #toDoDivList .row #tableDiv #newTaskForm {
+    width: 400px;
+    margin: 0 auto; }
+    /* line 33, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    body .container #toDoDiv #toDoDivList .row #tableDiv #newTaskForm #newTaskMsg {
+      margin-left: 103px; }
+    /* line 35, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    body .container #toDoDiv #toDoDivList .row #tableDiv #newTaskForm .formLabel {
+      display: inline-block;
+      width: 100px;
+      text-align: right; }
+    /* line 39, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    body .container #toDoDiv #toDoDivList .row #tableDiv #newTaskForm .formButton {
+      margin-left: 103px; }
 
 /*# sourceMappingURL=main.css.map */
