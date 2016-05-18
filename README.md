@@ -1,11 +1,10 @@
 # To-Do-List-Builder
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------------------------------------------------------------------------------
 Current Issues:
 -Table will word wrap if the text has spaces in between each letter, but verylongstringslikethis will extend the table and mess up formatting.
 -Window resizing; table formatting looks weird when window width is smaller than 530px
 -Extra styling?
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------------------------------------------------------------------------------
 Excerpt from ThatOneBrah's fb post:
 
 Alright guys, so the competition starts tonight!
