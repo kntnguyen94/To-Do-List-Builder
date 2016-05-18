@@ -429,34 +429,42 @@ body .container #toDoDiv #toDoDivList {
     body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable .descRow:hover {
       background-color: #ddd; }
     /* line 27, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
-    body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable .descCol {
-      min-width: 150px;
+    body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable .taskCol {
+      width: 150px;
       padding-left: 2px;
-      word-wrap: break-work;
+      word-wrap: break-word;
       border: 1px solid black; }
     /* line 32, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable .descCol {
+      min-width: 150px;
+      max-width: 200px;
+      padding-left: 2px;
+      word-wrap: break-word;
+      border: 1px solid black; }
+    /* line 38, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
     body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable .buttonCol {
       padding-left: 0px; }
-  /* line 34, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+  /* line 40, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
   body .container #toDoDiv #toDoDivList .row #tableDiv #newTaskForm {
     width: 400px;
     margin: 0 auto; }
-    /* line 37, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    /* line 43, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
     body .container #toDoDiv #toDoDivList .row #tableDiv #newTaskForm input {
       display: inline-block;
       float: left; }
-    /* line 40, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    /* line 46, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
     body .container #toDoDiv #toDoDivList .row #tableDiv #newTaskForm #newTaskMsg {
       margin-left: 103px; }
-    /* line 42, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    /* line 48, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
     body .container #toDoDiv #toDoDivList .row #tableDiv #newTaskForm .formLabel {
       display: inline-block;
       width: 100px;
       float: left;
       text-align: right;
       margin-right: 2px; }
-    /* line 48, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
+    /* line 54, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
     body .container #toDoDiv #toDoDivList .row #tableDiv #newTaskForm .formButton {
+      height: 100%;
       margin-left: 103px; }
 
 /*# sourceMappingURL=main.css.map */
