@@ -6,6 +6,8 @@ Current Issues:
 
 -Window resizing; table formatting looks weird when window width is smaller than 530px
 
+-Alerts for when deadlines occur (maybe)
+
 -Extra styling?
 
 ------------------------------------------------------------------------------------------------------------------------------------
