@@ -7,6 +7,7 @@ Current Issues:
 -Window resizing; table formatting looks weird when window width is smaller than 530px
 
 -Extra styling?
+
 ------------------------------------------------------------------------------------------------------------------------------------
 Excerpt from ThatOneBrah's fb post:
 
