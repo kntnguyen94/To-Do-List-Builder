@@ -10,6 +10,8 @@ Current Issues:
 
 -Extra styling?
 
+-Way to mark multiple items and delete/change status
+
 ------------------------------------------------------------------------------------------------------------------------------------
 Excerpt from ThatOneBrah's fb post:
 
