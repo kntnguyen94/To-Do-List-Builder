@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-11T01:12:47.839Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="7U_nzYalNfJn6yQ-E1a7" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-11T04:46:52.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="SIIlQt2USqVCQoNUZDfw" version="12.2.3" type="github" pages="1">
   <diagram id="ebyHIHOIsL0jrv1JN3ZG" name="Page-1">
     <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -21,6 +21,24 @@
             <mxPoint x="90" y="130" as="sourcePoint"/>
             <mxPoint x="210" y="120" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5Kgps96UHaV6ycMvh6B-11" value=":CyberMiner Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="90" height="690" as="geometry"/>
+        </mxCell>
+        <mxCell id="Y5Kgps96UHaV6ycMvh6B-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Y5Kgps96UHaV6ycMvh6B-11">
+          <mxGeometry x="40" y="90" width="10" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="Y5Kgps96UHaV6ycMvh6B-13" value=":KWIC Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="30" width="90" height="690" as="geometry"/>
+        </mxCell>
+        <mxCell id="Y5Kgps96UHaV6ycMvh6B-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Y5Kgps96UHaV6ycMvh6B-13">
+          <mxGeometry x="40" y="90" width="10" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="Y5Kgps96UHaV6ycMvh6B-15" value=":KWIC Index DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="30" width="120" height="690" as="geometry"/>
+        </mxCell>
+        <mxCell id="Y5Kgps96UHaV6ycMvh6B-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Y5Kgps96UHaV6ycMvh6B-15">
+          <mxGeometry x="55" y="90" width="10" height="70" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
