@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-02T21:32:57.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="dpzaElgLiR1QAZOvuzzb" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T21:33:07.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="figyCDT3SwDcFQ4x_XN3" version="12.3.3" type="github" pages="1">
   <diagram id="e5vHWDUePIUh8G4eEy7l" name="Page-1">
     <mxGraphModel dx="805" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZQl7QdY2teaes1WGbOm0-35" value="load page with&lt;br&gt;paginated results" style="endArrow=none;dashed=1;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
+        <mxCell id="ZQl7QdY2teaes1WGbOm0-35" value="display page with&lt;br&gt;paginated results" style="endArrow=none;dashed=1;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry x="0.2857" y="20" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="370" as="sourcePoint"/>
             <mxPoint x="220" y="370" as="targetPoint"/>
