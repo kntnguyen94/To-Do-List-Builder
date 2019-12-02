@@ -1,11 +1,11 @@
-<mxfile host="www.draw.io" modified="2019-12-02T07:36:34.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="E1-529lQLUwljsRyEM4l" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T07:59:16.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="mod1ntIz6GeoBUmHgUfW" version="12.3.3" type="github" pages="1">
   <diagram id="T4emJ2A0gdQVIQOlJknf" name="Page-1">
     <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="xosQfCJ6UveeNYg1vg_T-1" value="KwicRecordStorageAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="150" width="290" height="170" as="geometry"/>
+          <mxGeometry x="340" y="340" width="290" height="170" as="geometry"/>
         </mxCell>
         <mxCell id="xosQfCJ6UveeNYg1vg_T-2" value="- master_control: kwic_system.MasterControl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-1">
           <mxGeometry y="26" width="290" height="26" as="geometry"/>
@@ -13,8 +13,71 @@
         <mxCell id="xosQfCJ6UveeNYg1vg_T-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-1">
           <mxGeometry y="52" width="290" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="xosQfCJ6UveeNYg1vg_T-4" value="+ readRecordsFromIndex(): set&lt;Record&gt;&#xa;- addRecords(set&lt;Record&gt;): void&#xa;- writeToFile(): void&#xa;- remakeIndex(set&lt;Record&gt;): void&#xa;- removeRecords(set&lt;Record&gt;): void&#xa;- filterDates(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-1">
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-4" value="+ readRecordsFromIndex(): set&lt;Record&gt;&#xa;+ addRecords(set&lt;Record&gt;): void&#xa;+ writeToFile(): void&#xa;+ remakeIndex(set&lt;Record&gt;): void&#xa;+ removeRecords(set&lt;Record&gt;): void&#xa;+ filterDates(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-1">
           <mxGeometry y="60" width="290" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-5" value="KwicMasterControl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="340" width="290" height="164" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-5">
+          <mxGeometry y="26" width="290" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-8" value="+ addLines(list(str)): void&#xa;+ removeLines(list(str)): void&#xa;+ writeToFile(): void&#xa;+ remakeIndex(list(str)): void&#xa;+ getIndex(): list(str)&#xa;+ getLastShift(): list(str)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-5">
+          <mxGeometry y="34" width="290" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-12" value="adaptee" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;entryX=-0.01;entryY=0.431;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xosQfCJ6UveeNYg1vg_T-8">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="630" y="430" as="sourcePoint"/>
+            <mxPoint x="790" y="430" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-13" value="1" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" connectable="0" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-12">
+          <mxGeometry x="-1" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-14" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="412" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-15" value="AutoSuggest" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="560" width="280" height="178" as="geometry">
+            <mxRectangle x="350" y="350" width="190" height="26" as="alternateBounds"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-16" value="- kwicAdapter: KwicRecordStorageAdapter&#xa;- caseSensitive: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-15">
+          <mxGeometry y="26" width="280" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-15">
+          <mxGeometry y="70" width="280" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-18" value="- setupCache(): void&#xa;- getSuggestions(str): list(str)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-15">
+          <mxGeometry y="78" width="280" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-19" value="Record" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="560" width="280" height="140" as="geometry">
+            <mxRectangle x="350" y="350" width="190" height="26" as="alternateBounds"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-20" value="+ url: str&#xa;+ description: str&#xa;+ createdDate: date&#xa;+ paidAmount: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-19">
+          <mxGeometry y="26" width="280" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-19">
+          <mxGeometry y="90" width="280" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-22" value="+ fromString(str): Record" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-19">
+          <mxGeometry y="98" width="280" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-23" value="Search" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="790" width="280" height="178" as="geometry">
+            <mxRectangle x="350" y="350" width="190" height="26" as="alternateBounds"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-24" value="-qualifiers: set&lt;str&gt;&#xa;-search: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-23">
+          <mxGeometry y="26" width="280" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-23">
+          <mxGeometry y="70" width="280" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-26" value="+ search(): str&#xa;+ search(str): void&#xa;+ executeSearch(list(Record)): list(Record)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-23">
+          <mxGeometry y="78" width="280" height="100" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
