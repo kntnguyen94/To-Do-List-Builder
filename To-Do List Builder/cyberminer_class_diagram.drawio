@@ -1,1 +1,22 @@
-<mxfile host="www.draw.io" modified="2019-12-02T07:25:34.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.3.3" etag="5X8bjjyqsWagwJFCE2i9" type="github" pages="1"><diagram id="T4emJ2A0gdQVIQOlJknf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-02T07:36:34.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="E1-529lQLUwljsRyEM4l" version="12.3.3" type="github" pages="1">
+  <diagram id="T4emJ2A0gdQVIQOlJknf" name="Page-1">
+    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-1" value="KwicRecordStorageAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="150" width="290" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-2" value="- master_control: kwic_system.MasterControl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-1">
+          <mxGeometry y="26" width="290" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-1">
+          <mxGeometry y="52" width="290" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-4" value="+ readRecordsFromIndex(): set&lt;Record&gt;&#xa;- addRecords(set&lt;Record&gt;): void&#xa;- writeToFile(): void&#xa;- remakeIndex(set&lt;Record&gt;): void&#xa;- removeRecords(set&lt;Record&gt;): void&#xa;- filterDates(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-1">
+          <mxGeometry y="60" width="290" height="110" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
