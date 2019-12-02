@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-02T06:32:49.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="SxmGTAj27CGjs5BSvdTD" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T06:40:19.446Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="lQezce40IUBcFa9EwNaI" version="12.3.3" type="github" pages="1">
   <diagram id="ebyHIHOIsL0jrv1JN3ZG" name="Page-1">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="971" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -22,7 +22,7 @@
             <mxPoint x="210" y="120" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y5Kgps96UHaV6ycMvh6B-11" value=":CyberMiner Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="Y5Kgps96UHaV6ycMvh6B-11" value=":CyberMiner Control" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="30" width="90" height="690" as="geometry"/>
         </mxCell>
         <mxCell id="Y5Kgps96UHaV6ycMvh6B-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Y5Kgps96UHaV6ycMvh6B-11" vertex="1">
