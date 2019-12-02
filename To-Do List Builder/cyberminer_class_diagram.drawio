@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-02T23:13:41.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="JleIKm5hQxFZ4JNAGRNE" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T23:16:00.054Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="CrfUVm-xFv0kfum5yVDp" version="12.3.3" type="github" pages="1">
   <diagram id="T4emJ2A0gdQVIQOlJknf" name="Page-1">
     <mxGraphModel dx="1173" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -100,10 +100,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xosQfCJ6UveeNYg1vg_T-46" value="search():&lt;br&gt;observerState:=&lt;br&gt;&amp;nbsp; &amp;nbsp; searchInputSubject.getValue()" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
-          <mxGeometry x="95" y="179" width="190" height="60" as="geometry"/>
+          <mxGeometry x="85" y="114" width="190" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="xosQfCJ6UveeNYg1vg_T-48" value="init():&lt;br&gt;searchInputSubject.attach(this)&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
-          <mxGeometry x="115" y="106" width="170" height="50" as="geometry"/>
+          <mxGeometry x="105" y="50" width="170" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="xosQfCJ6UveeNYg1vg_T-49" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=170;exitDy=14;exitPerimeter=0;" edge="1" parent="1" source="xosQfCJ6UveeNYg1vg_T-48" target="xosQfCJ6UveeNYg1vg_T-52">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -122,7 +122,7 @@
         <mxCell id="xosQfCJ6UveeNYg1vg_T-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-51">
           <mxGeometry y="70" width="280" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="xosQfCJ6UveeNYg1vg_T-54" value="- init(): void&#xa;- writeRecord(htmlTable, Record): void&#xa;- search(): void&#xa;- writeResults(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-51">
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-54" value="- init(): void&#xa;- writeRecord(htmlTable, Record): void&#xa;- search(): void&#xa;- writeResults(): void&#xa;- bind(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-51">
           <mxGeometry y="78" width="280" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="xosQfCJ6UveeNYg1vg_T-55" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.007;exitY=0.383;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xosQfCJ6UveeNYg1vg_T-46" target="xosQfCJ6UveeNYg1vg_T-54">
@@ -132,7 +132,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xosQfCJ6UveeNYg1vg_T-59" value="writeResults():&lt;br&gt;nextPageSubject.attach(this)" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
-          <mxGeometry x="95" y="262" width="190" height="52" as="geometry"/>
+          <mxGeometry x="85" y="180" width="190" height="52" as="geometry"/>
         </mxCell>
         <mxCell id="xosQfCJ6UveeNYg1vg_T-60" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=190;exitDy=33;exitPerimeter=0;" edge="1" parent="1" source="xosQfCJ6UveeNYg1vg_T-59" target="xosQfCJ6UveeNYg1vg_T-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
