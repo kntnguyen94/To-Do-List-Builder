@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-02T21:29:32.446Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="aebmxhYlW9quGHw_ZeKA" version="12.3.5" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T21:30:16.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="jbEXeiOE4-pVx95shlCR" version="12.3.5" type="github" pages="1">
   <diagram id="8fsPiEIJAXThoTwZe8MG" name="Page-1">
-    <mxGraphModel dx="1173" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="971" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
           <mxGeometry x="70" y="30" width="90" height="690" as="geometry"/>
         </mxCell>
         <mxCell id="2HLYA1HZswzqJ7tbZCIl-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="2HLYA1HZswzqJ7tbZCIl-1" vertex="1">
-          <mxGeometry x="40" y="90" width="10" height="520" as="geometry"/>
+          <mxGeometry x="40" y="90" width="10" height="420" as="geometry"/>
         </mxCell>
         <mxCell id="2HLYA1HZswzqJ7tbZCIl-3" value=":KwicRecordStorageAdapter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="30" width="170" height="690" as="geometry"/>
@@ -65,9 +65,9 @@
           <mxGeometry x="670" y="30" width="170" height="690" as="geometry"/>
         </mxCell>
         <mxCell id="Y1Z3jfWqd25T_wAmfVKm-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Y1Z3jfWqd25T_wAmfVKm-1">
-          <mxGeometry x="80" y="450" width="10" height="120" as="geometry"/>
+          <mxGeometry x="80" y="460" width="10" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="Y1Z3jfWqd25T_wAmfVKm-5" value="constructor(KwicRecordStorageAdapter)" style="endArrow=classic;html=1;entryX=-0.2;entryY=0.325;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Y1Z3jfWqd25T_wAmfVKm-2">
+        <mxCell id="Y1Z3jfWqd25T_wAmfVKm-5" value="constructor(KwicRecordStorageAdapter)" style="endArrow=classic;html=1;entryX=0.117;entryY=0.758;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Y1Z3jfWqd25T_wAmfVKm-2">
           <mxGeometry y="10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="125" y="520" as="sourcePoint"/>
             <mxPoint x="345" y="519.92" as="targetPoint"/>
