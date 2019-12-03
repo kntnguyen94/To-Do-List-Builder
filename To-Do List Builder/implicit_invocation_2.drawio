@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-03T05:20:53.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="QxTreejuK57JAaOszoCw" version="12.3.5" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-03T06:09:37.487Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="VMP6U3Bl2_npv4KDdG12" version="12.3.5" type="github" pages="1">
   <diagram id="KJq-rviZduDNF2qRuEym" name="Page-1">
     <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -24,6 +24,18 @@
             <mxPoint x="190" y="240" as="sourcePoint"/>
             <mxPoint x="210" y="210" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-8" value="CyberMinerControl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-9" value="HTML DOM Control" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="630" width="580" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-10" value="submitClick" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="400" y="550" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-11" value="searchInputChange" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="460" y="540" width="140" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
