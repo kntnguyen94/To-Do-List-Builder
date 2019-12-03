@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-03T06:39:20.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="i44WEFtatnCRaB1vNgDH" version="12.3.5" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-03T07:04:52.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Tzr8_kkZ39au7po-0QXt" version="12.3.5" type="github" pages="1">
   <diagram id="KJq-rviZduDNF2qRuEym" name="Page-1">
-    <mxGraphModel dx="1860" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -124,12 +124,6 @@
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-34" value="readLinesFromIndex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="220" width="190" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="HSlESZ4G94i-QzGAAVmZ-35" value="" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.316;exitY=-0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.463;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HSlESZ4G94i-QzGAAVmZ-34" target="HSlESZ4G94i-QzGAAVmZ-36">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="470" y="500" as="sourcePoint"/>
-            <mxPoint x="510" y="140" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-36" value="readLinesFromIndex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="95" width="190" height="40" as="geometry"/>
         </mxCell>
@@ -182,6 +176,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="309.62406015037595" y="336" as="sourcePoint"/>
             <mxPoint x="301.5037593984962" y="660" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-52" value="KwicMasterControl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="50" width="340" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-53" value="readLinesFromIndex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="95" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-54" value="" style="endArrow=classic;html=1;exitX=0.395;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.605;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HSlESZ4G94i-QzGAAVmZ-34" target="HSlESZ4G94i-QzGAAVmZ-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="860" as="sourcePoint"/>
+            <mxPoint x="110" y="810" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-55" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HSlESZ4G94i-QzGAAVmZ-36" target="HSlESZ4G94i-QzGAAVmZ-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545.05" y="232" as="sourcePoint"/>
+            <mxPoint x="544.95" y="144" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
