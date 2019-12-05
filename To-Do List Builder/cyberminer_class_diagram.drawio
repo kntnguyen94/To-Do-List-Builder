@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-05T04:36:49.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="6OnSC1gh_9-2gwwxnqpY" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-05T04:41:01.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Dp21IcXOuXpemvG_kk5n" version="12.3.3" type="github" pages="1">
   <diagram id="T4emJ2A0gdQVIQOlJknf" name="Page-1">
     <mxGraphModel dx="3291" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -104,14 +104,14 @@
             <mxRectangle x="350" y="350" width="190" height="26" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xosQfCJ6UveeNYg1vg_T-52" value="+ searchInputSubject: SearchInputSubject&#xa;+ nextPageSubject: NextPageSubject&#xa;+ krsa: KwicRecordStorageAdapter&#xa;+ searchResults: list(str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-51">
-          <mxGeometry y="26" width="290" height="64" as="geometry"/>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-52" value="+ searchInputSubject: SearchInputSubject&#xa;+ nextPageSubject: NextPageSubject&#xa;+ krsa: KwicRecordStorageAdapter&#xa;+ searchResults: list(str)&#xa;+ positionMarker: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-51">
+          <mxGeometry y="26" width="290" height="74" as="geometry"/>
         </mxCell>
         <mxCell id="xosQfCJ6UveeNYg1vg_T-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-51">
-          <mxGeometry y="90" width="290" height="8" as="geometry"/>
+          <mxGeometry y="100" width="290" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="xosQfCJ6UveeNYg1vg_T-54" value="- init(): void&#xa;- writeRecord(htmlTable, Record): void&#xa;- search(): void&#xa;- writeResults(): void&#xa;- update(): void&#xa;- updateAutoSuggestions(): void&#xa;- peekState(): void&#xa;- updateNumClicks(): void&#xa;- changePerPage(int): void&#xa;- changeSortToPopular(): void&#xa;- saveStateAndWriteResults(): void&#xa;- goBackOnePage(): void&#xa;- restoreState(): void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-51">
-          <mxGeometry y="98" width="290" height="192" as="geometry"/>
+        <mxCell id="xosQfCJ6UveeNYg1vg_T-54" value="- writeRecord(htmlTable, Record): void&#xa;- search(): void&#xa;- writeResults(): void&#xa;- update(): void&#xa;- updateAutoSuggestions(): void&#xa;- peekState(): void&#xa;- updateNumClicks(): void&#xa;- changePerPage(int): void&#xa;- changeSortToPopular(): void&#xa;- saveStateAndWriteResults(): void&#xa;- goBackOnePage(): void&#xa;- restoreState(): void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xosQfCJ6UveeNYg1vg_T-51">
+          <mxGeometry y="108" width="290" height="182" as="geometry"/>
         </mxCell>
         <mxCell id="xosQfCJ6UveeNYg1vg_T-55" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.007;exitY=0.383;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xosQfCJ6UveeNYg1vg_T-46" target="xosQfCJ6UveeNYg1vg_T-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
