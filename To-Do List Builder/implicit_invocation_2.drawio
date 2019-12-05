@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-03T07:04:52.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Tzr8_kkZ39au7po-0QXt" version="12.3.5" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-05T08:13:31.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="1Aw7zZrDllK9_7clokcZ" version="12.3.5" type="github" pages="1">
   <diagram id="KJq-rviZduDNF2qRuEym" name="Page-1">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-8" value="CyberMinerControl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="260" width="1100" height="35" as="geometry"/>
+          <mxGeometry x="240" y="260" width="1220" height="35" as="geometry"/>
         </mxCell>
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-9" value="HTML DOM Control" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="630" width="580" height="30" as="geometry"/>
@@ -46,7 +46,7 @@
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-13" value="10perpage.click" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="590" y="540" width="140" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="HSlESZ4G94i-QzGAAVmZ-14" value="15perpage.click" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-14" value="sortByAlpha.click" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="650" y="540" width="140" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-15" value="sortbydate.click" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
@@ -76,7 +76,7 @@
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-24" value="changeTenPerPage" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="760" y="295" width="130" height="25" as="geometry"/>
         </mxCell>
-        <mxCell id="HSlESZ4G94i-QzGAAVmZ-25" value="changeFifteenPerPage" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-25" value="changeSortToAlpha" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="295" width="130" height="25" as="geometry"/>
         </mxCell>
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-26" value="changeSortToDate" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
@@ -127,7 +127,7 @@
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-36" value="readLinesFromIndex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="95" width="190" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="HSlESZ4G94i-QzGAAVmZ-37" value="Search" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-37" value="Searcher" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="115" y="247.5" width="60" height="95" as="geometry"/>
         </mxCell>
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-38" value="executeSearch" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
@@ -154,7 +154,7 @@
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-45" value="edit DOM" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="230" y="680" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="HSlESZ4G94i-QzGAAVmZ-46" value="Auto&lt;br&gt;Suggest" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-46" value="Auto&lt;br&gt;Suggester" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="109.5" y="400" width="60" height="95" as="geometry"/>
         </mxCell>
         <mxCell id="HSlESZ4G94i-QzGAAVmZ-47" value="getSuggestions" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
@@ -194,6 +194,30 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="545.05" y="232" as="sourcePoint"/>
             <mxPoint x="544.95" y="144" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-56" value="next.click" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="875" y="540" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-57" value="back.click" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="960" y="540" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-58" value="next" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="295" width="60" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-59" value="back" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="294" width="60" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-60" value="" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HSlESZ4G94i-QzGAAVmZ-56" target="HSlESZ4G94i-QzGAAVmZ-58">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="889" y="500.98" as="sourcePoint"/>
+            <mxPoint x="1198.06" y="331" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSlESZ4G94i-QzGAAVmZ-61" value="" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.383;entryY=0.96;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HSlESZ4G94i-QzGAAVmZ-57" target="HSlESZ4G94i-QzGAAVmZ-59">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="899" y="510.98" as="sourcePoint"/>
+            <mxPoint x="1208.06" y="341" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
