@@ -402,7 +402,7 @@ textarea {
 
 /* line 4, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
 body .container #toDoDiv #toDoDivList {
-  border-style: solid; }
+  border-style: ridge; }
   @media (max-width: 990px) {
     /* line 4, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
     body .container #toDoDiv #toDoDivList {
@@ -417,14 +417,14 @@ body .container #toDoDiv #toDoDivList {
     body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable {
       table-layout: fixed;
       margin: 0 auto;
-      border: 1px solid black; }
+      border: 1px ; }
       /* line 17, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
       body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable .headRow {
         padding-top: 12px;
         padding-bottom: 12px;
         background-color: #4CAF50;
         color: white;
-        border: 1px solid black; }
+        border: 1px ; }
       /* line 24, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
       body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable .descRow:nth-child(even) {
         background-color: #f2f2f2; }
@@ -436,14 +436,14 @@ body .container #toDoDiv #toDoDivList {
         width: 150px;
         padding-left: 2px;
         word-wrap: break-word;
-        border: 1px solid black; }
+        border: 1px ; }
       /* line 33, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
       body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable .descCol {
         min-width: 150px;
         max-width: 200px;
         padding-left: 2px;
         word-wrap: break-word;
-        border: 1px solid black; }
+        border: 1px; }
       /* line 39, C:/Nam/To-Do-List-Builder/To-Do List Builder/sass/2-sections/_index-table.sass */
       body .container #toDoDiv #toDoDivList .row #tableDiv #toDoTable .buttonCol {
         padding-left: 0px; }
@@ -469,5 +469,67 @@ body .container #toDoDiv #toDoDivList {
       body .container #toDoDiv #toDoDivList .row #tableDiv #newTaskForm .formButton {
         height: 100%;
         margin-left: 103px; }
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* week header */
+.week {
+    padding: 10px 30px;
+    width: 100%;
+    background: #4CAF50;
+}
+
+/* week list */
+.week ul {
+    margin: 0;
+    padding: 0;
+}
+
+.week ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#4CAF50;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.20%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Days */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 15.0%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
 
 /*# sourceMappingURL=main.css.map */

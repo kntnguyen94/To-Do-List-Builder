@@ -8,6 +8,7 @@
       display: none;
     }   
     </style>
+    
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel = "stylesheet" type = "text/css" href = "main.css"> 
 </header>
@@ -50,14 +51,72 @@
                                     <input type="datetime-local" name="deadlineInput" ng-model="taskInfo.deadline"/>
                                 <br><br>
                                 <input class = "formButton" type = "submit" value = "Add" ng-disabled="newTaskForm.$invalid" />
-                            </form>
+                            </form>             
+                                                        <br><br>
+            <script id="tasker">
+             var taskTable = document.getElementById('toDoTable'); 
+                var curdate = new date();
+                var start = curdate;
+                var end = new Date(start); 
+                end.setDate(end.getDate()+ 7);
+                
+             var totalTasks = document.getElementById("toDoTable").rows.length;              
+             var curTasks = 0;
+                
+                function weeker(){
+                while(curTasks<totalTasks){
+                    var theDay = document.getElementById('toDoTable').rows[curTasks].cells[2];
+                    if(theDay == start){
+                    document.getElementById("mo").innerHTMl = document.getElementById("toDoTable").rows[curTasks].cells[0];
+                    curTasks++;   
+                    }
+                    else if(theDay ==curdate.setDate(curdate.getDate()+1)){
+                        
+                    curTasks++
+                    }
+                                
+                       }
+                    document.getElementById("toDoTable").rows[1].cells[1];
+                }
+            </script>       
+                             
+<div class="week">      
+  <ul>
+    <li style="text-align:center">
+      This Week<br>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li id="1">Mon</li>
+  <li id="2">Tue</li>
+  <li id="3">Wed</li>
+  <li id="4">Thur</li>
+  <li id="5">Fri</li>
+  <li id="6">Sat</li>
+  <li id="7">Sun</li>
+</ul>
+
+<ul class="days">
+  <li id="mo"><script>document.getElementById()</script></li>
+  <li id="tu"><script>document.write()</script></li>
+  <li id="we"></li>
+  <li id="th"></li>
+  <li id="fr"></li>
+  <li id="sa"></li>
+  <li id="su"></li>
+</ul>
+                            
+                <script>document.write(curdate());</script>    
+      <input id="refresh" type="button" value="Refresh" onclick="weeker();" />                      
+    </div>
                         </div>
                     <div class = "col-sm-2"></div>
                 </div>
             </div>
             <div class = "col-sm-2"></div>
         </div>
-    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
     <script src="js/toDo.js"></script>
 </body>

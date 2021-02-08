@@ -4,8 +4,6 @@ var app = angular.module('app', []);
 app.controller("toDoCtrl", function ($scope) {
     "use strict";
     $scope.toDoList = [
-        {taskName: "Dishes",details: "CLEAN THEM", deadline: "03/01/2017 at 5:00AM"},
-        {taskName: "Laundry",details: "DRY THEM", deadline: "04/09/2017 at 7:00PM"}
     ];
     
     $scope.addTask = function (taskInfo) {
